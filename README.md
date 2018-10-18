@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SKWeakTimer.svg?style=flat)](https://cocoapods.org/pods/SKWeakTimer)
 [![Platform](https://img.shields.io/cocoapods/p/SKWeakTimer.svg?style=flat)](https://cocoapods.org/pods/SKWeakTimer)
 
+WeakTimer to forbid circular reference
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
