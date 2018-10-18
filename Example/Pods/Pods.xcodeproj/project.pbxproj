@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DDDBAA0F799620638FC4810BFADF96 /* SKWeakTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B92D320BBCC201B6143F492E8A937D /* SKWeakTimer-dummy.m */; };
+		05435FC2864E295B078A898B14A16519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		308D2FDFA8799B2EDA533CAAF424B962 /* SKWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E69753A091B6DA6F0EFB005F2A5ED0 /* SKWeakTimer.m */; };
+		3471EB9C1D047981BED5F1E8448C7C7B /* Pods-SKWeakTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B795582E0BC1EEA4CBA9CE10F90FF /* Pods-SKWeakTimer_Example-dummy.m */; };
+		55445A0920DE96C82160E5D011257C46 /* SKWeakTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6986B49776AEFF4948C96F240BA43C3F /* SKWeakTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631C7BF765B036D34CA931F95844BE3A /* Pods-SKWeakTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11E8BC07734BDA8CED78E72C20FED87 /* Pods-SKWeakTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73222DC68144FF87E8D8F8CA424FF7B6 /* Pods-SKWeakTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AF442A6E07617DFF458238E69A4908 /* Pods-SKWeakTimer_Tests-dummy.m */; };
+		8BCD0645D224A3D2B8FE9F39106DFBAF /* SKWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBF7F3C6A95F973B9C10E216E549E20 /* SKWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4A4A933DEE5C57E20A34036630969B /* Pods-SKWeakTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64605374267799CA517A4A5A2166E81A /* Pods-SKWeakTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C9F354BEEF2584411910CED1CC4DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F0372B45C5C73674EAA8EC04073971D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		545BDDFB550BF124080040F28B157665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796CED3E16E5C9080CD0712FF1E2245F;
+			remoteInfo = SKWeakTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093466EBF9BE211EF60E7E1E759FCD97 /* SKWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKWeakTimer.framework; path = SKWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A086D8CE860E2B820A5636640FF12F3 /* SKWeakTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKWeakTimer.xcconfig; sourceTree = "<group>"; };
+		0A56F9A896FA2B8132FB12129239137A /* Pods_SKWeakTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKWeakTimer_Tests.framework; path = "Pods-SKWeakTimer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C5E77BFE2DCBD0125FEA0766913BE /* Pods-SKWeakTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKWeakTimer_Example.modulemap"; sourceTree = "<group>"; };
+		1D6B795582E0BC1EEA4CBA9CE10F90FF /* Pods-SKWeakTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKWeakTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		2C429B3C135BA749F1FC5C798192BF55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC0AC6B54CCC54E2D7AEDE695057D36 /* Pods-SKWeakTimer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKWeakTimer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		52F6E9E2DE073EC8391506F1691684AD /* Pods-SKWeakTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKWeakTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F1567DC0346DDFAAEBCB84D9734E9C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64605374267799CA517A4A5A2166E81A /* Pods-SKWeakTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKWeakTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6986B49776AEFF4948C96F240BA43C3F /* SKWeakTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKWeakTimer-umbrella.h"; sourceTree = "<group>"; };
+		6B0B13518EF6760BFCCC3DEA5C415611 /* Pods-SKWeakTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKWeakTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BA480F79DEA174E99C555902FA4AD4F /* Pods-SKWeakTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKWeakTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D78E35C262C37A337832EE1E46D1FF5 /* SKWeakTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKWeakTimer.modulemap; sourceTree = "<group>"; };
+		6EF59DA399C23C73021979CDB432E1AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E69753A091B6DA6F0EFB005F2A5ED0 /* SKWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKWeakTimer.m; path = SKWeakTimer/Classes/SKWeakTimer.m; sourceTree = "<group>"; };
+		81FCD399C537F47C58EAA394B2CE8BAF /* Pods-SKWeakTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKWeakTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		874F2FF902BC1970FD0EA367B02D5DE8 /* Pods-SKWeakTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKWeakTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B92D320BBCC201B6143F492E8A937D /* SKWeakTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKWeakTimer-dummy.m"; sourceTree = "<group>"; };
+		A0AF442A6E07617DFF458238E69A4908 /* Pods-SKWeakTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKWeakTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		A11E8BC07734BDA8CED78E72C20FED87 /* Pods-SKWeakTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKWeakTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AE077FD3EA3C695C2E11383C8D0F2FE3 /* Pods-SKWeakTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKWeakTimer_Example-resources.sh"; sourceTree = "<group>"; };
+		C8E65CC4E481E8BD5377DC7C9EBE6D64 /* Pods-SKWeakTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKWeakTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CAC75A57B98600AF00A5FC24FB2412C8 /* Pods_SKWeakTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKWeakTimer_Example.framework; path = "Pods-SKWeakTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF5D6FEA28F386083F01D1388CE7705 /* Pods-SKWeakTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKWeakTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		D7B37E0418D0D7CF6EB9C76AC52D7304 /* Pods-SKWeakTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKWeakTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1B6859BEAF8DD8D64A09CA8DB7430A4 /* Pods-SKWeakTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKWeakTimer_Tests-resources.sh"; sourceTree = "<group>"; };
+		EB588314CB8EAAB2302501BB6B368799 /* Pods-SKWeakTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKWeakTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1A473D528DF23F81D22ECCC23C283A9 /* SKWeakTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKWeakTimer-prefix.pch"; sourceTree = "<group>"; };
+		FB506D8D06A15C8F584DAC83663BBE01 /* Pods-SKWeakTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKWeakTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FBBF7F3C6A95F973B9C10E216E549E20 /* SKWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKWeakTimer.h; path = SKWeakTimer/Classes/SKWeakTimer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1871C8E7DD9695A4BD581EBC338C122C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C9F354BEEF2584411910CED1CC4DA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D05604346976E828B6B215E92D827E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05435FC2864E295B078A898B14A16519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9345198510CC3F1108760D621ACF876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0372B45C5C73674EAA8EC04073971D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F69BB9948171DE2574AC78C3E2FEADB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97ED4D8867F4BCC97D141FEDC8B1185C /* Pods-SKWeakTimer_Example */,
+				6EBF21B52F534B143CCE55388256FA7E /* Pods-SKWeakTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		57A421426E5CA759BEECFF932CDE704A /* SKWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FBBF7F3C6A95F973B9C10E216E549E20 /* SKWeakTimer.h */,
+				77E69753A091B6DA6F0EFB005F2A5ED0 /* SKWeakTimer.m */,
+				74E738FA2AE19552C76B059E57FBD4E0 /* Support Files */,
+			);
+			name = SKWeakTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6EBF21B52F534B143CCE55388256FA7E /* Pods-SKWeakTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1567DC0346DDFAAEBCB84D9734E9C7 /* Info.plist */,
+				CEF5D6FEA28F386083F01D1388CE7705 /* Pods-SKWeakTimer_Tests.modulemap */,
+				6B0B13518EF6760BFCCC3DEA5C415611 /* Pods-SKWeakTimer_Tests-acknowledgements.markdown */,
+				874F2FF902BC1970FD0EA367B02D5DE8 /* Pods-SKWeakTimer_Tests-acknowledgements.plist */,
+				A0AF442A6E07617DFF458238E69A4908 /* Pods-SKWeakTimer_Tests-dummy.m */,
+				4AC0AC6B54CCC54E2D7AEDE695057D36 /* Pods-SKWeakTimer_Tests-frameworks.sh */,
+				E1B6859BEAF8DD8D64A09CA8DB7430A4 /* Pods-SKWeakTimer_Tests-resources.sh */,
+				A11E8BC07734BDA8CED78E72C20FED87 /* Pods-SKWeakTimer_Tests-umbrella.h */,
+				6BA480F79DEA174E99C555902FA4AD4F /* Pods-SKWeakTimer_Tests.debug.xcconfig */,
+				C8E65CC4E481E8BD5377DC7C9EBE6D64 /* Pods-SKWeakTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKWeakTimer_Tests";
+			path = "Target Support Files/Pods-SKWeakTimer_Tests";
+			sourceTree = "<group>";
+		};
+		74E738FA2AE19552C76B059E57FBD4E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C429B3C135BA749F1FC5C798192BF55 /* Info.plist */,
+				6D78E35C262C37A337832EE1E46D1FF5 /* SKWeakTimer.modulemap */,
+				0A086D8CE860E2B820A5636640FF12F3 /* SKWeakTimer.xcconfig */,
+				96B92D320BBCC201B6143F492E8A937D /* SKWeakTimer-dummy.m */,
+				F1A473D528DF23F81D22ECCC23C283A9 /* SKWeakTimer-prefix.pch */,
+				6986B49776AEFF4948C96F240BA43C3F /* SKWeakTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKWeakTimer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F3EB0F5ACFC7A929269A98A0E841498C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A3465F6C89A6FDB6070924A47722FF71 /* Products */,
+				2F69BB9948171DE2574AC78C3E2FEADB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97ED4D8867F4BCC97D141FEDC8B1185C /* Pods-SKWeakTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6EF59DA399C23C73021979CDB432E1AD /* Info.plist */,
+				0F7C5E77BFE2DCBD0125FEA0766913BE /* Pods-SKWeakTimer_Example.modulemap */,
+				EB588314CB8EAAB2302501BB6B368799 /* Pods-SKWeakTimer_Example-acknowledgements.markdown */,
+				52F6E9E2DE073EC8391506F1691684AD /* Pods-SKWeakTimer_Example-acknowledgements.plist */,
+				1D6B795582E0BC1EEA4CBA9CE10F90FF /* Pods-SKWeakTimer_Example-dummy.m */,
+				FB506D8D06A15C8F584DAC83663BBE01 /* Pods-SKWeakTimer_Example-frameworks.sh */,
+				AE077FD3EA3C695C2E11383C8D0F2FE3 /* Pods-SKWeakTimer_Example-resources.sh */,
+				64605374267799CA517A4A5A2166E81A /* Pods-SKWeakTimer_Example-umbrella.h */,
+				81FCD399C537F47C58EAA394B2CE8BAF /* Pods-SKWeakTimer_Example.debug.xcconfig */,
+				D7B37E0418D0D7CF6EB9C76AC52D7304 /* Pods-SKWeakTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-SKWeakTimer_Example";
+			path = "Target Support Files/Pods-SKWeakTimer_Example";
+			sourceTree = "<group>";
+		};
+		A3465F6C89A6FDB6070924A47722FF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC75A57B98600AF00A5FC24FB2412C8 /* Pods_SKWeakTimer_Example.framework */,
+				0A56F9A896FA2B8132FB12129239137A /* Pods_SKWeakTimer_Tests.framework */,
+				093466EBF9BE211EF60E7E1E759FCD97 /* SKWeakTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3EB0F5ACFC7A929269A98A0E841498C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57A421426E5CA759BEECFF932CDE704A /* SKWeakTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		496109D9AA2C798092B3AEE2AC7B96DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631C7BF765B036D34CA931F95844BE3A /* Pods-SKWeakTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8386DCFE056CFAE4D1495D7DD9596037 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55445A0920DE96C82160E5D011257C46 /* SKWeakTimer-umbrella.h in Headers */,
+				8BCD0645D224A3D2B8FE9F39106DFBAF /* SKWeakTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E5DE4E4E9424A3341D6BEE26848672 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4A4A933DEE5C57E20A34036630969B /* Pods-SKWeakTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54C00C1485C67BBBBDFC6FCFA3BC7EDD /* Pods-SKWeakTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33670DCF9A1A979540DEB3A87D546343 /* Build configuration list for PBXNativeTarget "Pods-SKWeakTimer_Example" */;
+			buildPhases = (
+				19FFF73699AFA7E9A9FCE8FE7AAB943A /* Sources */,
+				C9345198510CC3F1108760D621ACF876 /* Frameworks */,
+				D4E5DE4E4E9424A3341D6BEE26848672 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534CF2C3AB97882F506A15566087B9C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKWeakTimer_Example";
+			productName = "Pods-SKWeakTimer_Example";
+			productReference = CAC75A57B98600AF00A5FC24FB2412C8 /* Pods_SKWeakTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		796CED3E16E5C9080CD0712FF1E2245F /* SKWeakTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171F5989E2941C931D67378CE44B5F62 /* Build configuration list for PBXNativeTarget "SKWeakTimer" */;
+			buildPhases = (
+				ED647086905D42735011BCE24384AA4B /* Sources */,
+				2D05604346976E828B6B215E92D827E6 /* Frameworks */,
+				8386DCFE056CFAE4D1495D7DD9596037 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKWeakTimer;
+			productName = SKWeakTimer;
+			productReference = 093466EBF9BE211EF60E7E1E759FCD97 /* SKWeakTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B9669749265219A70BBEA81AA25292C /* Pods-SKWeakTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E397E88EEBFA14270A4172CC4AAF15AF /* Build configuration list for PBXNativeTarget "Pods-SKWeakTimer_Tests" */;
+			buildPhases = (
+				A8A4A60BBCBF94986EC5515A54D64ABD /* Sources */,
+				1871C8E7DD9695A4BD581EBC338C122C /* Frameworks */,
+				496109D9AA2C798092B3AEE2AC7B96DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKWeakTimer_Tests";
+			productName = "Pods-SKWeakTimer_Tests";
+			productReference = 0A56F9A896FA2B8132FB12129239137A /* Pods_SKWeakTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A3465F6C89A6FDB6070924A47722FF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C00C1485C67BBBBDFC6FCFA3BC7EDD /* Pods-SKWeakTimer_Example */,
+				9B9669749265219A70BBEA81AA25292C /* Pods-SKWeakTimer_Tests */,
+				796CED3E16E5C9080CD0712FF1E2245F /* SKWeakTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19FFF73699AFA7E9A9FCE8FE7AAB943A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3471EB9C1D047981BED5F1E8448C7C7B /* Pods-SKWeakTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A4A60BBCBF94986EC5515A54D64ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73222DC68144FF87E8D8F8CA424FF7B6 /* Pods-SKWeakTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED647086905D42735011BCE24384AA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DDDBAA0F799620638FC4810BFADF96 /* SKWeakTimer-dummy.m in Sources */,
+				308D2FDFA8799B2EDA533CAAF424B962 /* SKWeakTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534CF2C3AB97882F506A15566087B9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKWeakTimer;
+			target = 796CED3E16E5C9080CD0712FF1E2245F /* SKWeakTimer */;
+			targetProxy = 545BDDFB550BF124080040F28B157665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5379AF2388D8C5C6CCBE6A1AE1128AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A086D8CE860E2B820A5636640FF12F3 /* SKWeakTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKWeakTimer/SKWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKWeakTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKWeakTimer/SKWeakTimer.modulemap";
+				PRODUCT_NAME = SKWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D7966A5AD4DD10106F26476CA6096A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA480F79DEA174E99C555902FA4AD4F /* Pods-SKWeakTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKWeakTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKWeakTimer_Tests/Pods-SKWeakTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKWeakTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		639F777799188B04B5EBE813EB16D8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A086D8CE860E2B820A5636640FF12F3 /* SKWeakTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKWeakTimer/SKWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKWeakTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKWeakTimer/SKWeakTimer.modulemap";
+				PRODUCT_NAME = SKWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FE80F06B14467BEB87E829618EEC914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B37E0418D0D7CF6EB9C76AC52D7304 /* Pods-SKWeakTimer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKWeakTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKWeakTimer_Example/Pods-SKWeakTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKWeakTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7404626206D706624A124AEAFE3A342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FCD399C537F47C58EAA394B2CE8BAF /* Pods-SKWeakTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKWeakTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKWeakTimer_Example/Pods-SKWeakTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKWeakTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BDE912B8F67AA067E562AF7004019C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E65CC4E481E8BD5377DC7C9EBE6D64 /* Pods-SKWeakTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKWeakTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKWeakTimer_Tests/Pods-SKWeakTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKWeakTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171F5989E2941C931D67378CE44B5F62 /* Build configuration list for PBXNativeTarget "SKWeakTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639F777799188B04B5EBE813EB16D8D0 /* Debug */,
+				5379AF2388D8C5C6CCBE6A1AE1128AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33670DCF9A1A979540DEB3A87D546343 /* Build configuration list for PBXNativeTarget "Pods-SKWeakTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7404626206D706624A124AEAFE3A342F /* Debug */,
+				6FE80F06B14467BEB87E829618EEC914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E397E88EEBFA14270A4172CC4AAF15AF /* Build configuration list for PBXNativeTarget "Pods-SKWeakTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D7966A5AD4DD10106F26476CA6096A /* Debug */,
+				BDE912B8F67AA067E562AF7004019C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

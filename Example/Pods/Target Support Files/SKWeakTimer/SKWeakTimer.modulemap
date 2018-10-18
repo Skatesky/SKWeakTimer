@@ -1,0 +1,6 @@
+framework module SKWeakTimer {
+  umbrella header "SKWeakTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
