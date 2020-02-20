@@ -24,7 +24,7 @@ pod 'SKWeakTimer'
 
 ## Author
 
-zhanghuabing, zhanghuabing@douyu.tv
+skate, skate0104@163.com
 
 ## License
 
